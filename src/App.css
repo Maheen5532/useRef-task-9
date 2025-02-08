@@ -1,0 +1,48 @@
+.video-container {
+  text-align: center;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+.video {
+  width: 100%;
+  max-width: 600px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+}
+
+.controls {
+  margin-top: 10px;
+}
+
+.button {
+  padding: 10px 15px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  margin: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.play {
+  background-color: #2e86c1  ;
+  color: white;
+}
+
+.play:hover {
+  background-color: blue;
+}
+
+.pause {
+  background-color: #dc3545;
+  color: white;
+}
+
+.pause:hover {
+  background-color: #a71d2a;
+}
